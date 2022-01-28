@@ -1,18 +1,19 @@
-{% extends 'base.html' %} {% block title %}User Registration{% endblock title %}
+{% extends 'base.html' %}
 
-{% block content %}
-<form method="POST" class="flex gap-2 justify-center items-center">
-    {% csrf_token %}
-    {% for form in registration_form %}
-        <div class="form-control">
-            <label for="">
-                {{ form.label }}
-            </label>
-            <small>{{ form.help_text }}</small>
-            <div>
-                {{form}}
-            </div>
-        </div>
-    {% endfor %}
-</form>
-{% endblock content %}
+{% block title %}User Registration{% endblock title %}
+
+{% block body %}
+    {% block content %}
+    <form method="POST">
+        {% csrf_token %}
+
+        {% with form=register_form %}
+            {% include 'components/form-renderer.html' %}
+        {% endwith %}
+
+        <button class="px-4 py-2 bg-gray-900 text-white">Register</button>
+
+        <a class="text-gray-400 hover:underline" href="{% url 'accounts:login' %}">login here</a>
+    </form>
+    {% endblock content %}
+{% endblock body %}

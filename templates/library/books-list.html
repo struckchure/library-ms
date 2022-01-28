@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% with action="List" %}
+        {% include 'components/book-list-toolbar.html' %}
+    {% endwith %}
+
+    <div class="grid sm:grid-cols-4 grid-rows-1 mx-auto gap-4 p-2 w-fit">
+        {% for book in books %}
+            {% include 'components/book-card.html' %}
+        {% endfor %}
+    </div>
+{% endblock content %}

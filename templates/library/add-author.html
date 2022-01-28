@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Add Author{% endblock title %}
+
+{% block content %}
+    <form method="POST">
+        {% csrf_token %}
+
+        {% with form=add_author_form %}
+            {% include 'components/form-renderer.html' %}
+        {% endwith %}
+
+        <button>Add Author</button>
+    </form>
+{% endblock content %}

@@ -1,3 +1,13 @@
 {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "emmet.includeLanguages": {"django-html": "html"},
+    "beautify.language": {
+      "html": [
+        "django-html"
+      ]
+    },
+    "[html]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "HookyQR.beautify"
+    }
 }

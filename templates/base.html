@@ -7,16 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{% static 'js/script.js' %}"></script>
 
     <title>
       {% block title %}Library Management System{% endblock title %}
     </title>
   </head>
   <body>
+    {% block body %}
       <div class="h-screen">
-          {% block content %}
-          {% endblock content %}
+        {% include 'components/navbar.html' %}
+
+        <main class="z-10">
+          <div>
+            {% if messages %}
+              {% for message in messages %}
+                  {% include 'components/messages.html' %}
+              {% endfor %}
+            {% endif %}
+          </div>
+  
+          <div class="container mx-auto py-4 h-full">
+            {% block content %}
+            {% endblock content %}
+          </div>
+        </main>
       </div>
+    {% endblock body %}
   </body>
 </html>

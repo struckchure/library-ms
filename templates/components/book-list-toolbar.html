@@ -1,0 +1,12 @@
+<div class="flex flex-row justify-between items-center z-0 px-4">
+    <div>
+        <p class="text-white">Books / {{ action }}</p>
+    </div>
+    <div>
+        <a href="{% url 'library:add-book' %}">
+            <button class="bg-gray-900 text-white px-4 py-2">
+                Add Book
+            </button>
+        </a>
+    </div>
+</div>

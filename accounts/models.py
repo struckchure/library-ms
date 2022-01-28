@@ -16,3 +16,12 @@ class User(BaseModel, AbstractUser):
 
     def __str__(self):
         return self.username
+
+    def borrow_book(self, book):
+        # import Borrow model here to avoid circular import error
+        from library.models import Borrow
+
+        borrow = Borrow.objects.create(user_id=self.id, book=book)
+        borrow.save()
+
+        return borrow

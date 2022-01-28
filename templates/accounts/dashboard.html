@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %} User Dashboard {% endblock title %}
+
+{% block content %}
+<h1 class="text-white">Welcome, {{ user.username }}</h1>
+
+<div class="grid sm:grid-cols-4 grid-rows-1 mx-auto gap-4 p-2 w-fit">
+    {% for book in borrowed_books %}
+        {% include 'components/borrowed-book-card.html' %}
+    {% endfor %}
+</div>
+
+{% endblock %}
