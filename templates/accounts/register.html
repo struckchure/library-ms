@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block title %}User Registration{% endblock title %}
+
+{% block content %}
+<form method="POST" class="flex gap-2 justify-center items-center">
+    {% csrf_token %}
+    {% for form in registration_form %}
+        <div class="form-control">
+            <label for="">
+                {{ form.label }}
+            </label>
+            <small>{{ form.help_text }}</small>
+            <div>
+                {{form}}
+            </div>
+        </div>
+    {% endfor %}
+</form>
+{% endblock content %}
