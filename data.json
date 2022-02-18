@@ -1,0 +1,496 @@
+[
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 4,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 4,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 4,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 4,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 5,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 5,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 5,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 5,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add author",
+      "content_type": 7,
+      "codename": "add_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change author",
+      "content_type": 7,
+      "codename": "change_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete author",
+      "content_type": 7,
+      "codename": "delete_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view author",
+      "content_type": 7,
+      "codename": "view_author"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add book",
+      "content_type": 8,
+      "codename": "add_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change book",
+      "content_type": 8,
+      "codename": "change_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete book",
+      "content_type": 8,
+      "codename": "delete_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view book",
+      "content_type": 8,
+      "codename": "view_book"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add borrow",
+      "content_type": 9,
+      "codename": "add_borrow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change borrow",
+      "content_type": 9,
+      "codename": "change_borrow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete borrow",
+      "content_type": 9,
+      "codename": "delete_borrow"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view borrow",
+      "content_type": 9,
+      "codename": "view_borrow"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "accounts", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "library", "model": "author" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "library", "model": "book" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "library", "model": "borrow" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "cutfo5m9615ngbitxbfnh93z04uywhua",
+    "fields": {
+      "session_data": ".eJxVjDsOgzAQBe_iOraw1waTMn3OgPy865CPQOJTRbl7QKJI2jcz7626tC59t84ydXdWZ9VkjhK915Jd0d4RaRCTZuecRYHYAnX6zZDyU4a95UcabqPJ47BMd5hdMQedzXVkeV0O9--gT3O_1QEITZ2kuJAbm2NVCiqRFiiUamYPcPCIVWzTtpZIgI_WE7iVKKQ-X4KWQyU:1nDJy1:Beri8FAQSiNF7PTXJsHyYcd_H5pModFStU3kbJbxjLo",
+      "expire_date": "2022-02-11T05:38:37.948Z"
+    }
+  },
+  {
+    "model": "accounts.user",
+    "pk": "7cd8e844-ec2f-4233-b3d3-d2221bfbe1fb",
+    "fields": {
+      "password": "pbkdf2_sha256$320000$JFjhWRsIKZDAwclGsvjxCQ$QgaovexzZPrepfnFGBsQ2yOehXj2aIYMBFlO3SvP9k8=",
+      "last_login": "2022-01-28T05:38:37.856Z",
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-01-28T04:56:21.094Z",
+      "created": "2022-01-28T04:56:21.416Z",
+      "updated": "2022-01-28T04:56:21.416Z",
+      "first_name": "",
+      "last_name": "",
+      "username": "MD",
+      "email": "md@md.com",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "library.author",
+    "pk": "045f4ecc-f22e-4983-8d05-8ef97c49fc24",
+    "fields": {
+      "created": "2022-01-28T09:38:06.176Z",
+      "updated": "2022-01-28T09:38:06.176Z",
+      "full_name": "Mohammed Al Ameen",
+      "bio": "loersjfbsdgsdg"
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": "387aba3e-0b8f-4b7f-bfd1-55f62ddc0e82",
+    "fields": {
+      "created": "2022-01-28T10:18:23.902Z",
+      "updated": "2022-01-28T10:18:23.902Z",
+      "author": "045f4ecc-f22e-4983-8d05-8ef97c49fc24",
+      "cover": "245177676_4812479422115812_3459048986044838374_n.jpg",
+      "title": "Eternals",
+      "description": "ksdjgsdfg",
+      "publication_date": "2022-01-04"
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": "44e4f938-a60b-4e2a-90dd-95e8e813b502",
+    "fields": {
+      "created": "2022-01-28T10:29:32.875Z",
+      "updated": "2022-01-28T10:29:32.875Z",
+      "author": "045f4ecc-f22e-4983-8d05-8ef97c49fc24",
+      "cover": "245100420_10160406653266554_2136667671273371764_n.jpg",
+      "title": "Loki and Thor",
+      "description": "sdufhsdf",
+      "publication_date": "2017-10-03"
+    }
+  },
+  {
+    "model": "library.book",
+    "pk": "70f3d628-fd52-4123-88e1-3dac3b1f8847",
+    "fields": {
+      "created": "2022-01-28T09:57:18.728Z",
+      "updated": "2022-01-28T09:57:18.728Z",
+      "author": "045f4ecc-f22e-4983-8d05-8ef97c49fc24",
+      "cover": "243299925_5197990053548943_6241880629393698062_n.jpg",
+      "title": "Black Panther",
+      "description": "dsf",
+      "publication_date": "2022-01-10"
+    }
+  },
+  {
+    "model": "library.borrow",
+    "pk": "251ec698-d814-4a64-9f00-93324830cf69",
+    "fields": {
+      "created": "2022-01-28T11:35:00.744Z",
+      "updated": "2022-01-28T11:35:00.920Z",
+      "user": "7cd8e844-ec2f-4233-b3d3-d2221bfbe1fb",
+      "book": "70f3d628-fd52-4123-88e1-3dac3b1f8847",
+      "has_returned": false,
+      "borrow_duration": "7 00:00:00"
+    }
+  },
+  {
+    "model": "library.borrow",
+    "pk": "a8d5f5ed-9227-4a13-a413-2c37c9193d67",
+    "fields": {
+      "created": "2022-01-28T11:34:58.719Z",
+      "updated": "2022-01-28T11:34:58.916Z",
+      "user": "7cd8e844-ec2f-4233-b3d3-d2221bfbe1fb",
+      "book": "387aba3e-0b8f-4b7f-bfd1-55f62ddc0e82",
+      "has_returned": false,
+      "borrow_duration": "7 00:00:00"
+    }
+  },
+  {
+    "model": "library.borrow",
+    "pk": "e4c7ad3d-1068-4fa1-948f-6c18e2e76359",
+    "fields": {
+      "created": "2022-01-28T11:34:55.944Z",
+      "updated": "2022-01-28T11:34:56.129Z",
+      "user": "7cd8e844-ec2f-4233-b3d3-d2221bfbe1fb",
+      "book": "44e4f938-a60b-4e2a-90dd-95e8e813b502",
+      "has_returned": false,
+      "borrow_duration": "7 00:00:00"
+    }
+  },
+  {
+    "model": "library.borrow",
+    "pk": "f3f42783-0857-417b-80ba-a1203745c5a2",
+    "fields": {
+      "created": "2022-01-28T11:31:34.658Z",
+      "updated": "2022-01-28T11:31:34.794Z",
+      "user": "7cd8e844-ec2f-4233-b3d3-d2221bfbe1fb",
+      "book": "387aba3e-0b8f-4b7f-bfd1-55f62ddc0e82",
+      "has_returned": false,
+      "borrow_duration": "7 00:00:00"
+    }
+  }
+]
